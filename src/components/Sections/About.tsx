@@ -107,8 +107,8 @@ export default function About() {
             <Image
               src="/images/About1.webp"
               alt="Barista meticulously garnishing a fresh kiwi mocktail with tweezers."
-              width={764}
-              height={1080}
+              width={810}
+              height={539}
             />
           </Stack>
 
@@ -137,8 +137,8 @@ export default function About() {
             <Image
               src="/images/About2.webp"
               alt="Group of friends raising glasses for a celebratory toast with vibrant mocktails."
-              width={1080}
-              height={605}
+              width={641}
+              height={359}
             />
           </Stack>
         </Box>
@@ -150,8 +150,8 @@ export default function About() {
             <Image
               src="/images/About3.webp"
               alt="Five tall mocktails lined up, featuring lemon, cucumber, orange, and rosemary garnishes."
-              width={1080}
-              height={605}
+              width={500}
+              height={500}
             />
           </Stack>
 
@@ -160,8 +160,8 @@ export default function About() {
             <Image
               src="/images/About4.webp"
               alt="Close-up of a refreshing iced mocktail garnished with a bright orange slice and fresh pink flowers."
-              width={1080}
-              height={641}
+              width={539}
+              height={320}
             />
           </Stack>
         </Box>

@@ -41,7 +41,7 @@ export default function Mocktails() {
     <Box component="section" id="Mocktails">
       {/*  Decorative Leaves  */}
       <Image src="/images/cocktail-left-leaf.webp" alt="" className="left-leaf" width={294} height={332} />
-      <Image src="/images/cocktail-right-leaf.webp" alt="" className="right-leaf" width={315} height={332} />
+      <Image src="/images/cocktail-right-leaf.webp" alt="" className="right-leaf" width={137} height={332} />
 
       {/* Content */}
       <Container maxWidth="xl" className="list">
