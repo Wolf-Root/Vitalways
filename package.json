@@ -1,7 +1,12 @@
 {
-  "name": "mojito",
-  "version": "0.1.0",
+  "name": "vitalways",
+  "description": "A clean and responsive landing page for a Mocktails.",
+  "version": "1",
   "private": true,
+  "author": {
+    "name": "Wolf Root",
+    "url": "https://github.com/Wolf-Root"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
@@ -9,11 +14,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@gsap/react": "^2.1.2",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
     "gsap": "^3.13.0",
     "next": "15.5.3",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "react-responsive": "^10.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
