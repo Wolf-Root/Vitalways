@@ -1,8 +1,15 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@mui/material/styles";
 import Theme from "@/theme/theme";
+
+const modernNegra = localFont({
+  src: "../fonts/ModernNegraDemo.ttf",
+  variable: "--font-modern-negra",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Vitalways",
@@ -53,7 +60,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={modernNegra.variable}>
         <ThemeProvider theme={Theme}>
           <Header />
           {children}
