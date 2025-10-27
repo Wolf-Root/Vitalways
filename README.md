@@ -4,7 +4,7 @@ A captivating and responsive landing page designed for a high-end **mocktail bar
 
 ### Preview
 
-![Light Mode Desktop](public/Preview/Github-Cover-Image.png)
+![Preview](public/Preview/Github-Cover-Image.png)
 
 [![License: MIT](https://img.shields.io/badge/MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 ![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=whiteZ)
